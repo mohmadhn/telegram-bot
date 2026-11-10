@@ -1,0 +1,12 @@
+{
+  "name": "accounting-app-workspace",
+  "private": true,
+  "workspaces": [
+    "apps/*"
+  ],
+  "scripts": {
+    "start:api": "npm --workspace=apps/api run start",
+    "dev:api": "npm --workspace=apps/api run dev",
+    "start:mobile": "npm --workspace=apps/mobile run start"
+  }
+}
